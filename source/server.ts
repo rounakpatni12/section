@@ -3,7 +3,7 @@ import http from 'http';
 import express, { Express } from 'express';
 import morgan from 'morgan';
 import routes from './routes/posts';
-
+console.log("hello world")
 const router: Express = express();
 
 /** Logging */
